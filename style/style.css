@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+html {
+    color: #231F20;
+
+}
+
+body {
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: none;
+
+}
+
+.img_logo {
+    width: 100px;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(228, 65, 65, 0.2),
+            rgba(241, 4, 4, 0.2)), url(../img/john-mark-arnold-ti4kGLkGgmU-unsplash.jpg);
+    min-height: 80vh;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.header_box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.header_title {
+    color: #854034;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.section_title {
+    margin-bottom: 40px;
+}
+
+.sobre_section {
+    background-color: #B23A48;
+    color: #EEE5BC;
+}
+
+.portifolio_section,
+.como_section,
+.sobre_section {
+    margin-top: 100px;
+}
+
+
+
+.card-img-top {
+    object-fit: fill;
+    height: 200px;
+}
