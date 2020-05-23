@@ -28,42 +28,40 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light  pl-4 pr-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-item nav-link mr-3" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link mr-3" href="#como">Como Funciona?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link mr-3" href="#portifolio">Portifólio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link mr-3" href="#contato">Contato</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
     <header class="header">
-        
-        <nav class="navbar navbar-expand-lg navbar-light  pl-4 pr-4">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav font-weight-bold">
-                    <li class="nav-item">
-                        <a class="nav-item nav-link mr-3" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link mr-3" href="#como">Como Funciona?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link mr-3" href="#portifolio">Portifólio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link mr-3" href="#contato">Contato</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-
-        <div class="d-flex flex-column ">
-            <h1 class="header_title">Marina Melo</h1>
-            <p class="subtitle">Design de Interiores</p>
+        <div class="header__box">
+            <h1 class="header__title">Marina Melo</h1>
+            <p class="header__subtitle">Design de Interiores</p>
         </div>
 
     </header>
 
     <section id="sobre" class="container text-center sobre_section">
-        <div class=" p-4 sobre_container">
+        <div class="p-4 sobre_container">
             <h3 class="section_title">SOBRE</h3>
             <p class="sobre_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci dolorem quidem
                 recusandae delectus nihil iste harum, provident fugit quia! Est, maxime quidem enim sequi at id
@@ -123,7 +121,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card">
-                    <img src="img/daniil-silantev-UIcBEy5TDTA-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="img/minh-pham-YAPZt8wxMO4-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -133,7 +131,7 @@
             </div>
             <div class="col mb-4">
                 <div class="card">
-                    <img src="img/daniil-silantev-UIcBEy5TDTA-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="img/john-mark-arnold-ti4kGLkGgmU-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -144,6 +142,35 @@
         </div>
 
     </section>
+
+    <section class="container contact" id="contact">
+        <div class="contact__box">
+            <h2 class="contact__box_title">Entre em contato</h2>
+
+            <div class="contact__box_form">
+                <div class="contact__box_name-email">
+                    <input type="text" id="name" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                </div>
+                <textarea name="message" cols="50" rows="50" placeholder="Mensagem"></textarea>
+
+                <div class="contact__box_button">
+                    <button class="contact__box_button-send">Enviar</button>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__box">
+            <p class="footer__paragraph">© 2020 Marina Melo. Todos os direitos reservados.</p>
+            <a href="https://www.instagram.com/marinamedmelo/" target="blank"></a><i class="fab fa-instagram"></i></a>
+            <a href="https://www.behance.net/" target="blank"><i class="fab fa-behance-square"></i></a>
+            <a href="mailto:marinamedmelo@gmail.com" target="blank"><i class="far fa-envelope"></i></a>
+        </div>
+        <p class="footer__paragraph mini">Desenvolvido por <span><a  target="blank" href="https://ilzinha.github.io/">Ilza Medeiros</a></span></p>
+    </footer>
 
 
 </body>

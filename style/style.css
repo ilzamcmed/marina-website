@@ -6,45 +6,44 @@ html {
 }
 
 body {
-   
+
     font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
     background-color: none;
-
 }
 
-.img_logo {
-    width: 100px;
-
+.navbar-color {
+    color: #8cb369;
 }
 
 .header {
     background-image: linear-gradient(rgba(228, 65, 65, 0.2),
-            rgba(241, 4, 4, 0.2)), url(../img/john-mark-arnold-ti4kGLkGgmU-unsplash.jpg);
-    min-height: 80vh;
+            rgba(241, 4, 4, 0.2)), url(../img/minh-pham-YAPZt8wxMO4-unsplash.jpg);
+    min-height: 50vh;
     height: 600px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
-.header_box {
-    position: relative;
-    width: 500px;
-    height: 500px;
+.header__box {
+    text-align: center;
+    margin: 50px 150px;
 }
 
-.header_title {
+.header__title {
     color: #854034;
     font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
+    font-size: 5.5rem;
 }
 
-.subtitle {
+.header__subtitle {
     font-size: 2rem;
 }
 
@@ -53,7 +52,7 @@ body {
 }
 
 .sobre_section {
-    background-color: #B23A48;
+    background-color: #3F9566;
     color: #EEE5BC;
 }
 
@@ -63,9 +62,149 @@ body {
     margin-top: 100px;
 }
 
-
-
 .card-img-top {
     object-fit: fill;
     height: 200px;
+}
+
+/* CONTATO */
+
+.contact {
+    background-color: #b23a48;
+}
+
+
+.contact__box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact__box_title {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #EEE5BC;
+    padding-top: 70px;
+}
+
+.contact__box_name-email {
+
+    display: flex;
+    width: 100%;
+}
+
+.contact__box_form {
+    margin: 20px 90px;
+}
+
+#name {
+    margin-right: 20px;
+}
+
+.contact__box_form input {
+    background: #b23a48;
+    opacity: 0.5;
+    border-radius: 4px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 0;
+
+}
+
+.contact__box_form textarea {
+    background: #b23a48;
+    opacity: 0.5;
+    border-radius: 4px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 0;
+    height: 150px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.contact__box_button {
+    text-align: end;
+}
+
+.contact__box_button-send {
+    width: 120px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    line-height: 25px;
+    color: #b23a48;
+}
+
+.footer {
+    background-color: #231f20;
+    color: #EEE5BC;
+}
+
+.footer__box {
+    padding: 50px;
+    text-align: center;
+}
+
+.mini {
+    color: darkgray;
+    font-size: 0.8rem;
+    text-align: right;
+}
+.mini a {
+    color: darkgray;
+    font-weight: 600;
+}
+
+.fab, .far {
+    padding: 15px;  
+    font-size: 24px;
+    color: #EEE5BC;
+}
+
+@media screen and (max-width: 700px) {
+
+    .header__box {
+        text-align: center;
+        margin: 50px 5px;
+    }
+
+    .header__title {
+        color: #854034;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 4.5rem;
+    }
+
+    .header__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .sobre_section {
+        margin: 0 auto;
+    }
+
+    .contact__box_name-email {
+
+        display: block;
+        width: 100%;
+    }
+
+    .contact__box_form {
+        margin: 20px;
+    }
+
+    .contact__box_button {
+        text-align: center;
+    }
+
+    .contact__box_button-send {
+        width: 100%;
+
+    }
+
 }
